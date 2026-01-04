@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images\favicon\cpufavicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="images\favicon\cpufavicon.ico" type="image/x-icon">
+    <base href="/" />
+    <link rel="icon" href="/images/favicon/cpufavicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/favicon/cpufavicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -536,16 +537,16 @@
 
 <body>
     <nav id="navbar">
-        <a href="index.html" class="logo">CPU AlgoSched</a>
+        <a href="/index.html" class="logo">CPU AlgoSched</a>
 
         <div class="nav-links" id="navLinks">
             <i class="fas fa-times close-icon" onclick="hideMenu()"></i>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="docs.html">Document</a></li>
-                <li><a href="backend/ganttcharts.html">Simulator</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/docs.html">Document</a></li>
+                <li><a href="/backend/ganttcharts.html">Simulator</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
             </ul>
         </div>
 
@@ -599,6 +600,7 @@
                     System
                     concepts. Whether you're new to CPU scheduling or looking to deepen your knowledge, our interactive
                     tools and resources provide a hands-on approach to mastering scheduling algorithms.</p>
+                <img src="/images/logo.png" alt="CPU Scheduler Logo">
             </div>
         </div>
     </section>
@@ -647,6 +649,7 @@
     </script>
 
     <!-- AOS Animation -->
+    <script src="/js/script.js" defer></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({

@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images\favicon\cpufavicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="images\favicon\cpufavicon.ico" type="image/x-icon">
+    <base href="/" />
+    <link rel="icon" href="/images/favicon/cpufavicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/favicon/cpufavicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/style.css">
     <title>CPU AlgoSched</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
@@ -68,7 +70,7 @@
         .header {
             min-height: 100vh;
             width: 100%;
-            background: linear-gradient(135deg, rgba(10, 10, 10, 0.9), rgba(59, 130, 246, 0.1)), url('images/CPU Scheduling_8.png');
+            background: linear-gradient(135deg, rgba(10, 10, 10, 0.9), rgba(59, 130, 246, 0.1)), url('/images/CPU Scheduling_8.png');
             background-size: cover;
             background-position: center;
             position: relative;
@@ -440,7 +442,7 @@
         /* CTA Section */
         .cta {
             margin: 6rem 4%;
-            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(99, 102, 241, 0.1)), url('./images/banner2.JPG');
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(99, 102, 241, 0.1)), url('/images/banner2.JPG');
             background-size: cover;
             background-position: center;
             border-radius: 20px;
@@ -648,17 +650,17 @@
 <body>
     <section class="header">
         <nav id="navbar">
-            <a href="index.html" class="logo">CPU AlgoSched</a>
+            <a href="/" class="logo">CPU AlgoSched</a>
 
             <div class="nav-links" id="navLinks">
                 <i class="fas fa-times close-icon" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="docs.html">Document</a></li>
-                    <li><a href="backend/ganttcharts.html">Simulator</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/docs.html">Document</a></li>
+                    <li><a href="/backend/ganttcharts.html">Simulator</a></li>
 
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
                 </ul>
             </div>
 
@@ -675,7 +677,7 @@
                 Dive into interactive simulations to master CPU Scheduling Algorithms,
                 making complex concepts simple and engaging. Start your simulation now!
             </p>
-            <a href="backend\ganttcharts.html" class="hero-btn">
+            <a href="/backend/ganttcharts.html" class="hero-btn">
                 Start Simulation
                 <i class="fas fa-arrow-right"></i>
             </a>
@@ -724,7 +726,7 @@
         <div class="blog-container" data-aos="zoom-in-up">
             <div class="blog-box">
                 <div class="blog-img">
-                    <img src="./images/CPU Scheduling_2.png" alt="Blog">
+                    <img src="/images/CPU Scheduling_2.png" alt="Blog">
                 </div>
                 <div class="blog-text">
                     <a href="https://www.fusion-reactor.com/blog/multithreading-and-multiprocessing/#:~:text=A%20multiprocessing%20system%20has%20more,runs%20parallel%20to%20each%20other."
@@ -738,7 +740,7 @@
 
             <div class="blog-box">
                 <div class="blog-img">
-                    <img src="./images/CPU Scheduling_3.png" alt="Blog">
+                    <img src="/images/CPU Scheduling_3.png" alt="Blog">
                 </div>
                 <div class="blog-text">
                     <a href="https://www.eletimes.com/microprocessor-vs-microcontroller-what-is-the-difference#:~:text=Ultimately%2C%20microcontrollers%20and%20microprocessors%20are,that%20connects%20to%20external%20peripherals."
@@ -751,7 +753,7 @@
 
             <div class="blog-box">
                 <div class="blog-img">
-                    <img src="./images/CPU Scheduling_1.PNG" alt="Blog">
+                    <img src="/images/CPU Scheduling_1.PNG" alt="Blog">
                 </div>
                 <div class="blog-text">
                     <a href="https://www.crucial.in/articles/about-memory/what-is-the-difference-between-ram-and-rom#:~:text=RAM%20is%20volatile%20memory%20that,Find%20out%20more%20about%20RAM."
@@ -767,7 +769,7 @@
         <div class="blog-container" data-aos="zoom-in-up">
             <div class="blog-box">
                 <div class="blog-img">
-                    <img src="./images/CPU Scheduling_5.png" alt="Blog">
+                    <img src="/images/CPU Scheduling_5.png" alt="Blog">
                 </div>
                 <div class="blog-text">
                     <a href="https://www.tutorialspoint.com/semaphores-in-operating-system" class="blog-title">What is
@@ -780,7 +782,7 @@
 
             <div class="blog-box">
                 <div class="blog-img">
-                    <img src="./images/CPU Scheduling_6.png" alt="Blog">
+                    <img src="/images/CPU Scheduling_6.png" alt="Blog">
                 </div>
                 <div class="blog-text">
                     <a href="https://www.geeksforgeeks.org/introduction-of-deadlock-in-operating-system/"
@@ -794,7 +796,7 @@
 
             <div class="blog-box">
                 <div class="blog-img">
-                    <img src="./images/CPU Scheduling_7.PNG" alt="Blog">
+                    <img src="/images/CPU Scheduling_7.PNG" alt="Blog">
                 </div>
                 <div class="blog-text">
                     <a href="https://www.techopedia.com/definition/1115/storage#:~:text=Storage%20is%20a%20process%20through,data%2C%20either%20temporarily%20or%20permanently."
@@ -810,7 +812,7 @@
 
     <section class="cta" data-aos="zoom-in-up">
         <h1>Learn about all types Algorithms<br> Click Below!</h1>
-        <a href="./docs.html" class="hero-btn">
+        <a href="/docs.html" class="hero-btn">
             Click Here
             <i class="fas fa-external-link-alt"></i>
         </a>
